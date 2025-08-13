@@ -1,4 +1,4 @@
-# 🧮 Math 21-127 Tutor Bot
+# 🧮 Karolena Math Tutor Bot
  
 A friendly, AI-powered tutor bot for Carnegie Mellon's **Math 21-127 (Concepts of Mathematics)** course. 
 Built with Flask and OpenAI, the bot answers student questions using the official course syllabus.
