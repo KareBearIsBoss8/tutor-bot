@@ -1,7 +1,11 @@
 numpy
+json
+os
+numpy.linalg
 flask
 openai
 requests
 gunicorn
 
 PyPDF2
+
