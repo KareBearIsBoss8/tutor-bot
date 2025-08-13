@@ -1,5 +1,7 @@
+numpy
 flask
 openai
 requests
 gunicorn
+
 PyPDF2
