@@ -66,7 +66,7 @@ Student Question: {user_question}
 """
 
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4-turbo",
         messages=[
             {"role": "system", "content": prompt}
         ]
@@ -75,4 +75,5 @@ Student Question: {user_question}
     if section_title:
         return f"📘 **Relevant Section**: {section_title}\n\n{response.choices[0].message.content}"
     else:
+
         return f"{response.choices[0].message.content}"
