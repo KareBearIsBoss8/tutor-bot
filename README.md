@@ -12,7 +12,7 @@ Once deployed, link your Render web app here:
 ## 📋 Features
 - Answers math questions based on a course textbook PDF
 - Section-based search: Matches student questions to the most relevant syllabus section using embeddings.
-- Uses OpenAI GPT-3.5 for natural language responses
+- Uses OpenAI GPT-4-turbo for natural language responses
 - Web interface with a clean chat UI with HTML, CSS and JavaScript.
 - Flask backend: Lightweight Python API for handling requests.
 - Fast startup: Pre-computed embeddings stored in syllabus_embeddings.json (no parsing at runtime).
