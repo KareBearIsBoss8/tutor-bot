@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: math-tutor-bot
+    name: math21127-tutor-bot
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
@@ -14,3 +14,4 @@ services:
         sync: false
       - key: EMAIL_FROM
         sync: false
+    autoDeploy: true
