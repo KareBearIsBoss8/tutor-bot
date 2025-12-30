@@ -1,11 +1,16 @@
 services:
   - type: web
-    name: math21127-tutor-bot
+    name: math-tutor-bot
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     envVars:
       - key: OPENAI_API_KEY
-        sync: false  # Set this in the Render dashboard for security
-    autoDeploy: true
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: SENDGRID_API_KEY
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
